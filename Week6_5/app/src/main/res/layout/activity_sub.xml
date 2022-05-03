@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation ="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="이력서"
+            android:textSize="35dp"
+            />
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:rowCount="5"
+            android:columnCount="2"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:id="@+id/main_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowSpan="5"
+                android:src="@mipmap/ic_launcher_round"
+                android:layout_gravity="fill"
+                android:layout_columnWeight="1"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/sname"
+                android:hint="한글 이름"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:id="@+id/sname_eng"
+                android:hint="Eng name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:id="@+id/sphone"
+                android:hint="연락처"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:id="@+id/semail"
+                android:hint="메일"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:id="@+id/saddress"
+                android:hint="주소"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+        </GridLayout>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="■ 성장과정"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/ets_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="성장 과정"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="■ 학창시절"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/ets_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="학창 시절"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="■ 성격 장단점"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/ets_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="성격 장단점"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="■ 핵심역량"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/ets_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="핵심 역량"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"/>`
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이력서"
+        android:textSize="35dp"
+        android:layout_gravity="bottom"
+        />
+</LinearLayout>

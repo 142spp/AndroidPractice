@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sub_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint = "이름,나이"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/sub_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint = "연락처"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/sub_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint = "주소"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/sub_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint = "기타"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/sub_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="완료"/>
+
+</LinearLayout>
