@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id = "@+id/posterImageView"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:src="@drawable/gg"/>
+    
+    <TextView
+        android:id="@+id/input1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7번방의 선물"
+        />
+
+    <TextView
+        android:id="@+id/input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이환경"
+        />
+
+    <TextView
+        android:id="@+id/input3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1997년 성남교도소. 대한민국 전국 최악의 흉악범들이 모인 교도소 7번방에 6살 지능의 딸바보 용구(류승룡)가 들어온다. 그의 죄명은 [아동] [유괴] [강간] [살해]으로 죄명만 놓고 봤을 땐 사형이 당연한 흉악범. 하지만 시도때도 없이 딸 예승이를 찾아대는 용구가 그런 흉악범일 리 없다 생각한 7번방 멤버들은 기회를 틈타 7번방으로 용구의 딸 예승이를 데리고 오는데..."
+        />
+
+    <TextView
+        android:id="@+id/input4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2012년 6월 20일 ~ 2012년 10월 10일"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="예약하기"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="예약정보보기"/>
+    </LinearLayout>
+
+</LinearLayout>
