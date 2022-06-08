@@ -1,0 +1,9 @@
+
+l
+java:S1450!"WRemove the "textView" field and declare it as a local variable in the relevant methods.(ìÊõ"
+T
+java:S1874E">Remove this use of "startActivityForResult"; it is deprecated.(õúË
+e
+java:S1874H"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÉÎÍïıÿÿÿÿ
+L
+java:S1874U"1Remove this use of "getBitmap"; it is deprecated.(ëŞ­îüÿÿÿÿ

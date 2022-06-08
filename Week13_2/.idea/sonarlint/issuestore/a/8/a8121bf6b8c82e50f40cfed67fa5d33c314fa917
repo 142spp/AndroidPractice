@@ -1,0 +1,12 @@
+
+u
+java:S1450"XRemove the "imageView" field and declare it as a local variable in the relevant methods.(øû¯8É·ÄÏ‘0
+s
+java:S1450"WRemove the "textView" field and declare it as a local variable in the relevant methods.(ìÊõ"8ËÇÄÏ‘0
+T
+java:S1874C">Remove this use of "startActivityForResult"; it is deprecated.(õúË
+e
+java:S1874F"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÉÎÍïıÿÿÿÿ
+L
+java:S1874S"1Remove this use of "getBitmap"; it is deprecated.(ëŞ­îüÿÿÿÿ
+]	java:S125Y"<This block of commented-out lines of code should be removed.(š•å°şÿÿÿÿ8õ½üÎ‘0
